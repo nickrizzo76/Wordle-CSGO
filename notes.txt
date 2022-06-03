@@ -1,0 +1,36 @@
+A. Data that can get be scraped from the main player page (https://www.hltv.org/stats/players)
+                                                          (https://www.hltv.org/stats/players/11893/zywoo) // don't need
+B. Individual player page is https://www.hltv.org/player/11893/zywoo
+C. All teams they've played on is https://www.hltv.org/player/11893/zywoo#tab-teamsBox
+D. Majors won is https://www.hltv.org/player/11893/zywoo#tab-achievementBox
+E. Weapon : https://www.hltv.org/stats/players/weapon/11893/zywoo
+
+-nickName
+-actualName
+
+[✓] Rating 2.0
+[ ] # of Majors won => (https://www.hltv.org/player/11893/zywoo#tab-achievementBox)
+[ ] Most used weapon
+[✓] Nationality
+[✓] Current Team
+    -But not all teams they've played on => (https://www.hltv.org/player/11893/zywoo#tab-teamsBox)
+[✓] Age
+
+------------------------------------------------------
+data model: dictionary of players
+or array of objects?
+{
+    '20113': {
+        'nick_name': 'ZywOo',
+        'name': 'Mathieu Herbaut',
+        'rating': 1.38,
+        'majors': 3,
+        'nationality': 'France',
+        'age': 23,
+        'current_team': 'Vitality',
+        'past_teams': ['aAa', 'WySix'],
+        'weapon': 'ak-47'
+    },
+}
+
+
