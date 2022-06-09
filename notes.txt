@@ -34,3 +34,7 @@ or array of objects?
 }
 
 
+currently working on:
+- gathering rate limiting info
+- working on a way to slowing gather data (don't have to collect it all at once, do it in passes)
+- save rate limiting data to file?
